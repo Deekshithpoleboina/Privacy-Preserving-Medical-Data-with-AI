@@ -23,22 +23,27 @@ Enable the generation of synthetic medical data that mimics real patient data wh
 ## 🛠️ Methodology
 
 ### 🔄 Process Overview
+
 1. **Data Collection & Preprocessing**  
    Clean and standardize the Heart Disease dataset using imputation and scaling.
+
 2. **Model Design**  
    Implement a GAN architecture with:
    - Generator: Produces synthetic records from random noise.
    - Discriminator: Distinguishes between real and fake records.
+
 3. **Training**  
    Use adversarial training to iteratively improve both networks.
+
 4. **Evaluation**  
    Evaluate synthetic data using statistical similarity and classification metrics.
 
-### 📈 Model Used
+### 📈 Models Used
+
 - **GAN (Generative Adversarial Network)**
-- Optional extensions with:
+- Optional:
   - Variational Autoencoders (VAEs)
-  - RNNs (for time-series data)
+  - Recurrent Neural Networks (RNNs)
 
 ---
 
@@ -51,7 +56,7 @@ Enable the generation of synthetic medical data that mimics real patient data wh
 | Heart Rate   | 0.0 ± 1.0                | ~172.46                       |
 | Sex          | 0.0 ± 1.0                | ~0.39                         |
 
-*More features covered in full evaluation.*
+*More features are covered in the full evaluation.*
 
 ---
 
@@ -87,36 +92,6 @@ Enable the generation of synthetic medical data that mimics real patient data wh
 # Clone the repository
 git clone https://github.com/<your-username>/ai-synthetic-healthcare.git
 cd ai-synthetic-healthcare
-
-👥 Team Members
-P. Deekshith (2203A5170)
-
-P. Sunil (2203A52169)
-
-M. Prabhu Kumar (2203A52158)
-
-D. Durga Prasad (2203A52146)
-
-K. Tharun Chary (2203A52236)
-
-🧑‍🏫 Guided By
-Dr. Pramoda Patro, Associate Professor, School of CS&AI
-
-🏫 Institution
-SR University, Ananthasagar, Warangal, Telangana - 506371
-Bachelor of Technology — School of Computer Science and Artificial Intelligence (2024–2025)
-
-📚 References
-Goodfellow et al. (2014). Generative Adversarial Nets. NeurIPS.
-
-Esteban et al. (2017). Real-valued Medical Time Series Generation with GANs.
-
-Ravuri & Reddy (2020). Privacy-Preserving Synthetic Data Generation: A Survey.
-
-Chen et al. (2021). Synthetic Data in Machine Learning for Healthcare. Nature Biomedical Engineering.
-
-📝 License
-This project is for educational and research purposes. Please contact the authors for any reuse beyond academic exploration.
 
 # Install dependencies
 pip install pandas numpy scikit-learn tensorflow matplotlib seaborn
