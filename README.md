@@ -14,8 +14,6 @@ Enable the generation of synthetic medical data that mimics real patient data wh
 
 - `Ai_in_Healthcare_Project.ipynb`: Jupyter notebook with code implementation.
 - `Heart_disease_cleveland_5000.csv`: Original dataset used for training.
-- `synthetic_heart_disease_data.csv`: Output synthetic dataset.
-- `AI_in_Healthcare_Group-2_Report.pdf`: Full project report.
 - `Group-2_Ai_in_Healthcare_Poster.pdf`: Visual summary poster.
 
 ---
